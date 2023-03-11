@@ -1,0 +1,205 @@
+html {
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: ourfont;
+    src: url("Cormorant-Light.ttf");
+}
+body {
+  background: url("new_bg.png") no-repeat;
+  background-size: 100%;
+  font-family: ourfont;
+  font-size: 130%;
+  margin: 0 auto;
+}
+
+
+menu {
+  margin: 0;
+  display: block;
+  position: fixed;
+  background: white;
+  width: 100%;
+  padding: 10px;
+  top: 0;
+  opacity: 80%;
+  border-bottom: 2px solid #333;
+}
+
+menu ul {
+    text-align: center;
+}
+
+menu li {
+  display: inline;
+  padding: 10px;
+  margin-right: 5%;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#title-tag {
+    color: white;
+    width: 30%;
+    text-align: center;
+    float: center;
+    margin: auto;
+    margin-top: 600px;
+    opacity: 80%;
+}
+
+#title-tag h1 {
+    font-size: 3em;
+}
+
+#title-tag h2 {
+    margin-top: -20px;
+}
+
+#location {
+    background: #FFF;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding: 100px;
+    height: 200px;
+}
+
+#location-body {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#directions {
+    float: left;
+    width: 50%;
+}
+
+#directions p {
+    font-size: 1.2em;
+    line-height: 20px;
+}
+
+#map {
+    float: left;
+    width: 40%;
+}
+
+#map img {
+    width: 90%;
+}
+
+#program {
+    width: 100%;
+    height: 90%;
+    background: url(20220615_192611.jpg) no-repeat;
+      background-size: 100%;
+}
+
+#program-body {
+    margin: auto;
+    width: 22%;
+    color: white;
+    font-size: 2em;
+    padding-top: 150px;
+}
+
+#program ul {
+    line-height: 2em;
+}
+
+#program-body li {
+    list-style: none;
+}
+
+#program-times {
+    float: left;
+    text-align: right;
+    padding-right: 30px;
+}
+#program-events {
+    float: right;
+}
+
+#accomodation {
+    width: 100%;
+    background: white;
+}
+
+#accomodation-body {
+    height: 320px;
+    width: 60%;
+    margin: auto;
+    color: #777;
+    font-weight: bold;
+}
+
+#accomodation-body h1 {
+    color: #000;
+}
+
+#accomodation-body div {
+    margin-top: 5%;
+    float: left;
+    width: 33.3%;
+}
+
+#accomodation ul {
+    line-height: 35px;
+}
+
+#accomodation li {
+    list-style: circle;
+}
+
+#zikmundov {
+
+}
+
+#zikmundov a {
+    text-decoration: none;
+}
+
+#zikmundov a:hover {
+    color: #CCC;
+}
+
+#nearby {
+
+}
+
+#tips {
+
+}
+
+#presents {
+    width: 100%;
+    height: 100%;
+    background: url(presents.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#presents-body {
+    margin: auto;
+    width: 30%;
+    padding: 14%;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    margin-top: -250px;
+}
+
+#footer a {
+    text-decoration: underline;
+}
+
+#footer a:hover {
+    color: #CCC;
+}
