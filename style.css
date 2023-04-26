@@ -13,7 +13,7 @@ body {
 }
 
 #home {
-  background: url("bg.png") no-repeat;
+  background: url("bg.png") no-repeat center;
   background-size: cover;
   height: 100vh;
 }
@@ -28,8 +28,8 @@ a {
 #location {
     background: #FFF;
     height: 50vh;
-    width: 100%;
     margin: 10% auto;
+    text-align: center;
 }
 
 #location-body {
