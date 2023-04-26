@@ -82,11 +82,12 @@ a {
     height: 100vh;
     background: url(20220615_192611.jpg) no-repeat;
     background-size: 100%;
+    text-align: center;
 }
 
 #program-body {
-    margin: auto;
-    width: 22%;
+    display: inline-block;
+    margin: 20px auto;
     color: white;
     font-size: 2em;
     padding-top: 150px;
@@ -106,7 +107,8 @@ a {
     padding-right: 30px;
 }
 #program-events {
-    float: right;
+    float: left;
+    text-align: left;
 }
 
 #accomodation {
