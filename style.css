@@ -5,36 +5,17 @@ html {
     font-family: ourfont;
     src: url("Cormorant-Light.ttf");
 }
+
 body {
-  background: url("new_bg.png") no-repeat;
-  background-size: 100%;
   font-family: ourfont;
   font-size: 130%;
   margin: 0 auto;
 }
 
-
-menu {
-  margin: 0;
-  display: block;
-  position: fixed;
-  background: white;
-  width: 100%;
-  padding: 10px;
-  top: 0;
-  opacity: 80%;
-  border-bottom: 2px solid #333;
-}
-
-menu ul {
-    text-align: center;
-}
-
-menu li {
-  display: inline;
-  padding: 10px;
-  margin-right: 5%;
-    
+#home {
+  background: url("bg.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 a {
@@ -44,40 +25,42 @@ a {
     font-size: 1.2em;
 }
 
-#title-tag {
-    color: white;
-    width: 30%;
-    text-align: center;
-    float: center;
-    margin: auto;
-    margin-top: 600px;
-    opacity: 80%;
-}
-
-#title-tag h1 {
-    font-size: 3em;
-}
-
-#title-tag h2 {
-    margin-top: -20px;
-}
-
 #location {
     background: #FFF;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    padding: 100px;
-    height: 200px;
+    height: 50vh;
+    width: 100vw;
+    margin: 10% auto;
 }
 
 #location-body {
-    width: 40%;
-    margin: 0 auto;
+  float: right;
 }
 
 #directions {
     float: left;
-    width: 50%;
+    width: 30%;
+    line-height: 0.8;
+}
+
+#directions h1 {
+    margin-left: 10%;
+    font-size: 300%;
+}
+
+#directions h2,
+#directions h3 {
+    margin-left: 10%;
+    font-size: 120%;
+    color: #4C4C4C;
+    line-height: 0.5;
+}
+
+#address-buttons li {
+    display: inline;
+}
+
+#address-buttons img {
+    height: 60px;
 }
 
 #directions p {
@@ -87,7 +70,7 @@ a {
 
 #map {
     float: left;
-    width: 40%;
+    width: 30%;
 }
 
 #map img {
@@ -96,9 +79,9 @@ a {
 
 #program {
     width: 100%;
-    height: 90%;
+    height: 100vh;
     background: url(20220615_192611.jpg) no-repeat;
-      background-size: 100%;
+    background-size: 100%;
 }
 
 #program-body {
@@ -128,38 +111,24 @@ a {
 
 #accomodation {
     width: 100%;
-    background: white;
+    height: 100vh;
+    font-size: 180%;
 }
 
 #accomodation-body {
-    height: 320px;
-    width: 60%;
+    text-align: center;
     margin: auto;
     color: #777;
-    font-weight: bold;
 }
 
 #accomodation-body h1 {
     color: #000;
 }
 
-#accomodation-body div {
-    margin-top: 5%;
-    float: left;
-    width: 33.3%;
+#accomodation-body li {
+    list-style: none;
 }
 
-#accomodation ul {
-    line-height: 35px;
-}
-
-#accomodation li {
-    list-style: circle;
-}
-
-#zikmundov {
-
-}
 
 #zikmundov a {
     text-decoration: none;
@@ -169,31 +138,11 @@ a {
     color: #CCC;
 }
 
-#nearby {
-
-}
-
-#tips {
-
-}
-
-#presents {
-    width: 100%;
-    height: 100%;
-    background: url(presents.jpg) no-repeat;
-    background-size: 100%;
-}
-
-#presents-body {
-    margin: auto;
-    width: 30%;
-    padding: 14%;
-    color: white;
-}
-
 #footer {
+    width: 100vw;
+    height: 100vw;
+    background: red;
     text-align: center;
-    margin-top: -250px;
 }
 
 #footer a {

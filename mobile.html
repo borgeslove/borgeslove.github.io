@@ -1,0 +1,155 @@
+    <html>
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <style>
+        html {
+          background-color: #090909;
+          color: white;
+          scroll-snap-type: y mandatory;
+        }
+        
+        body {
+          margin: 0;
+          padding: 0;
+        }
+
+        .page {
+          display: flex;
+          align-items: center;
+          scroll-snap-align: start;
+          overflow-x: hidden;
+          width: 100vw;
+          height: 100vh;
+          position: relative;
+        }
+
+        #home {
+          background: url("home.png") no-repeat;
+          background-size: cover;
+        }
+
+        #getting-there {
+          background: url("getting-there.png") no-repeat;
+          background-size: cover;
+        }
+
+        #address-box {
+          top: 0;
+          width: 100%;
+          color: #000;
+          position: absolute;
+          font-size: 330%;
+          line-height: 0.4;
+          margin: 5%;
+          margin-top: 15%;
+        }
+
+        #address-box h1 {
+          margin-left: 5%;
+          font-size: 200%;
+        }
+
+        #address-box h2,
+        #address-box h3 {
+          margin-left: 5%;
+          font-size: 90%;
+          color: #4C4C4C;
+        }
+
+        #address-buttons li {
+          display: inline;
+        }
+
+        #program {
+          background: url("program-m.jpg") no-repeat;
+          background-size: cover;
+        }
+
+        #program-times {
+          font-size: 500%;
+          margin: 0 auto;
+          text-align: center;
+          line-height: 2em;
+        }
+
+        #program-times li {
+          list-style: none;
+        }
+
+        #tips {
+          background: url("tips.jpg") no-repeat;
+          background-size: cover;
+          color: white;
+        }
+
+        #tips li {
+          list-style: none;
+        }
+
+        #tips-body p {
+          font-size: 300%;
+        }
+
+        #tips-body {
+          margin: 0 auto;
+          width: 80%;
+          text-align: center;
+          font-size: 250%;
+        }
+      </style>
+    </head>
+    <body>
+        <div class="page" id="home">
+          <div id="header">
+          </div>
+        </div>
+
+        <div class="page" id="program">
+          <div id="program-times">
+            <ul>
+              <li>9am - Breakfast</li>
+              <li>10am - Cerimony</h1>
+              <li>11am - Lunch</h1>
+              <li>12am - Party</h1>
+              <li>13pm - Sleep</h1>
+            </ul>
+          </div>
+        </div>
+
+        <div class="page" id="getting-there">
+      <div id="address-box">
+        <h1>Zikmundov</h1>
+        <h2>Staré Hutě 93, 686 01</h2>
+        <h3>Take exit at road curve number 5</h3>
+        <ul id="address-buttons">
+          <li><a href="https://goo.gl/maps/Pz6Fsy8jqwi7KYpk8"><img src="directions-button.png"/></a></li>
+          <li><a href="tel:+420608838808"><img src="call-button.png"/></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="page" id="tips">
+      <div id="tips-body">
+        <p>Zikmundov.cz</p>
+        <ul>
+          <li>Check-in Friday 3pm</li>
+          <li>Checkout Sunday 10am</li>
+        </ul>
+
+        <p>Tips nearby</p>
+        <ul>
+          <li>Outlook tower Salaš</li>
+          <li>Castle Buchlov</li>
+          <li>Buchlovský kámen</li>
+        </ul>
+
+        <p>Don't forget</p>
+        <ul>
+          <li>Swiming suits</li>
+          <li>yada yada</li>
+          <li>yada yada</li>
+        </ul>
+      </div>
+    </div>
+</body>
+</html>
