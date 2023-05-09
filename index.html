@@ -4,7 +4,15 @@
   <link rel="stylesheet" href="style.css">
   <script type="text/javascript">
     if (screen.width <= 699) {
+      if (navigator.language === 'cs') {
+        document.location = "mobile-cs.html";
+      }
+
       document.location = "mobile.html";
+    }
+
+    if (navigator.language === 'cs') {
+      document.location = "index-cs.html";
     }
 </script>
 </head>
